@@ -4,6 +4,7 @@
 --title-secondary: #FFFFFF;
 --logo-first:#4D5AE5;
 --logo-secondary: #2E2F42;
+--logo-third: #F4F4FD;
 --text-first: #434455;
 --text-secondary: #2E2F42;
 --text-third: #F4F4FD;
@@ -19,8 +20,7 @@
 
 /* global styles */
 body{
-font-family: Roboto, Times, serif;
-
+font-family: "Roboto", sans-serif;
 color: var(--text-first);
 background-color: var(--background-color-first);
 }
@@ -34,7 +34,8 @@ background-color: var(--background-color-first);
 
 /* Header */
 .logo-link{
-font-family: Raleway, Times, serif;
+font-family: "Relawey", sans-serif;
+font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
@@ -44,6 +45,11 @@ color: var(--logo-secondary);
 .logo-text{
 color: var(--logo-first);
 }
+
+.header-adress{
+    font-style: normal;
+}
+
 .header-item{
 font-weight: 500;
 font-size: 16px;
@@ -75,6 +81,16 @@ color: var(--text-first);
 .footer{
     background-color: var(--background-color-secondary);
 }
+
+.logo-link-footer{
+font-family: "Relawey", sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--logo-first);
+}
 .footer-text{
 font-weight: 400;
 font-size: 16px;
@@ -83,6 +99,9 @@ letter-spacing: 0.02em;
 color: var(--text-third);
 }
 
+.logo-text-footer{
+    color: var(--logo-third);
+}
 /* Index Main */
 
 /* Hero */
@@ -92,6 +111,7 @@ color: var(--text-third);
 }
 
 .hero-title{
+text-align: center;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -100,7 +120,7 @@ color: var(--title-secondary);
 }
 
 .hero-button{
-font-family: Roboto, Times, serif;
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -137,6 +157,7 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
 text-transform: capitalize;
 color: var(--title-first);
 }
@@ -152,6 +173,7 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
 text-transform: capitalize;
 color: var(--title-first);
 }
@@ -176,7 +198,7 @@ letter-spacing: 0.02em;
 /* Buttons menu */
 
 .buttons-item-btn{
-font-family: Roboto, Times, serif;
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;

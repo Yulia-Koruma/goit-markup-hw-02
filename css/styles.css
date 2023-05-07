@@ -34,16 +34,16 @@ background-color: var(--background-color-first);
 
 /* Header */
 .logo-link{
-font-family: "Relawey", sans-serif;
+font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--logo-secondary);
+color: var(--logo-first);
 }
 .logo-text{
-color: var(--logo-first);
+color: var(--logo-secondary);
 }
 
 .header-adress{
@@ -83,7 +83,7 @@ color: var(--text-first);
 }
 
 .logo-link-footer{
-font-family: "Relawey", sans-serif;
+font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -167,7 +167,9 @@ color: var(--title-first);
 .team{
     background-color: var(--background-color-third);
 }
-
+.team-item{
+    background-color: var(--background-color-first);
+}
 .team-title{
 font-weight: 700;
 font-size: 36px;

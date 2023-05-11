@@ -20,9 +20,9 @@
 
 /* global styles */
 body{
-font-family: "Roboto", sans-serif;
-color: var(--text-first);
-background-color: var(--background-color-first);
+    font-family: "Roboto", sans-serif;
+    color: var(--text-first);
+    background-color: var(--background-color-first);
 }
 
 .link{
@@ -32,18 +32,45 @@ background-color: var(--background-color-first);
     list-style:none;
 }
 
+.top-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--title-first);
+}
+
+.sub-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-first);
+}
+
+.sub-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-first);
+}
+
 /* Header */
+
 .logo-link{
-font-family: "Raleway", sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--logo-first);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-first);
 }
 .logo-text{
-color: var(--logo-secondary);
+    color: var(--logo-secondary);
 }
 
 .header-adress{
@@ -67,12 +94,13 @@ letter-spacing: 0.02em;
 }
 
 .header-adress-link{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--text-first);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-first);
 }
+
 .header-adress-link:hover,
 .header-adress-link:focus{
     color: var(--focus-hover);
@@ -83,25 +111,27 @@ color: var(--text-first);
 }
 
 .logo-link-footer{
-font-family: "Raleway", sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--logo-first);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-first);
 }
 .footer-text{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--text-third);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-third);
 }
 
 .logo-text-footer{
     color: var(--logo-third);
 }
+
+
 /* Index Main */
 
 /* Hero */
@@ -111,23 +141,22 @@ color: var(--text-third);
 }
 
 .hero-title{
-text-align: center;
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-color: var(--title-secondary);
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--title-secondary);
 }
 
 .hero-button{
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: var(--btn-first);
-background-color: var(--background-btn-first);
-cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--btn-first);
+    background-color: var(--background-btn-first);
+    cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -135,32 +164,17 @@ cursor: pointer;
 }
 
 /* Advantages */
-.advantages-item-title{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--text-secondary);
-}
 
-.advantages-item-text{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-}
+/* .advantages-item-title{
+} */
+
+/* .advantages-item-text{
+} */
 
 /* Activity */
 
-.activity-title{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-text-transform: capitalize;
-color: var(--title-first);
-}
+/* .activity-title{
+} */
 
 /* Team */
 
@@ -170,29 +184,16 @@ color: var(--title-first);
 .team-item{
     background-color: var(--background-color-first);
 }
-.team-title{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-text-transform: capitalize;
-color: var(--title-first);
-}
+/* .team-title{
+
+} */
 
 .team-item-title{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--title-first);
+    text-align: center;
 }
 
 .team-item-text{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /* Portfolio Main */
@@ -221,18 +222,8 @@ background-color: var(--background-btn-second);
 
 /* Cards */
 
-.portfolio-img-title{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--title-first);
-}
+/* .portfolio-img-title{
+} */
 
-.portfolio-img-text{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--text-first);
-}
+/* .portfolio-img-text{
+} */
